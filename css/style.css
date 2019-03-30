@@ -783,7 +783,7 @@ p.sp-para {
 .phone1 {
     text-align: center;
     padding: 6em 0;
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background: url(../images/contact%20hammer.jpg) no-repeat 0px 0px;
     background-size: cover;
 	position:relative;
 }
@@ -1037,7 +1037,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     text-transform: capitalize;
 }
 .wthree_copy_right p a{
-	text-decoration:underline;
+	text-decoration:none;
 	color:#fff;
 }
 .wthree_copy_right p a:hover{
