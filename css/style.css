@@ -763,6 +763,7 @@ p.sp-para {
     width: 50%;
 }
 .img_text_w3ls p {
+	text-align: justify;
 	color: #fff;
     font-size: 1em;
 	margin: 0.5em;
