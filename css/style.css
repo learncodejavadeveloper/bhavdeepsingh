@@ -494,6 +494,7 @@ img{
     color: #444;
     letter-spacing: .01em;
     margin: 3em 0 0;
+    text-align: justify;
 }
 .grid1 h3 {
     font-size: 1.3em;
@@ -1323,24 +1324,22 @@ i.fa.fa-map-marker,i.fa.fa-envelope,i.fa.fa-phone{
     color: #000;
     text-align: center;
     text-transform: uppercase;
-    border: 1px solid #fff;
-	font-weight:600;
+    font-weight:600;
 }
 .close {
     opacity: 1;
 }
 .modal-body p {
-    color: #999;
+    color: #848484;
     text-align: left;
-	padding:2em 2em 1em;
-	margin: 0 !important;
+	text-align: justify;
+    margin: 0 !important;
 	line-height:2em;
     font-size: 14px;
 }
 .modal-body p i {
-    display: block;
     margin: 1em 0;
-    color: #212121;
+    color: #e9034f;
 }
 .modal-body {
     padding:0;
@@ -1349,7 +1348,10 @@ i.fa.fa-map-marker,i.fa.fa-envelope,i.fa.fa-phone{
     padding: 0em 2em 0 2em;
 }
 .modal-content {
-    border-radius: 0;
+    width: 94%;
+    margin-left: 3%;
+    border-radius: 25px 25px 25px 25px;
+    border: 15px solid rgba(58, 17, 8, 0.51);
 }
 button.close {
     font-size: 1.5em;
@@ -2564,6 +2566,7 @@ form li {
 	}
 	.shy-menu.is-open {
 		width: 70%;
+        border-radius: 100px 100px 100px 100px;
 	}
 	.phone i.glyphicon {
 		left: 45%;
@@ -2610,6 +2613,7 @@ form li {
 	}
 	.shy-menu.is-open {
 		width: 77%;
+        border-radius: 100px 100px 100px 100px;
 	}
 	.shy-menu {
 		left: 12%;;
@@ -2662,6 +2666,7 @@ form li {
 	}
 	.shy-menu.is-open {
 		width: 81%;
+        border-radius: 100px 100px 100px 100px;
 	}
 	.link-effect-8 a {
 		margin: 1.2em 1em 0;
@@ -2840,6 +2845,7 @@ form li {
 	}
 	.shy-menu.is-open {
 		width: 87%;
+        border-radius: 100px 100px 100px 100px;
 	}
 }
 @media screen and (max-width: 768px){
@@ -2917,6 +2923,7 @@ form li {
 	}
 	.shy-menu.is-open {
 		width: 89%;
+        border-radius: 10px 100px 100px 100px;
 	}
 }
 @media screen and (max-width: 667px){
@@ -2925,6 +2932,7 @@ form li {
 	}
 	.shy-menu.is-open {
 		width: 92%;
+        border-radius: 10px 100px 100px 100px;
 	}
 	.phone1 h3 {
 		font-size: 1.5em;

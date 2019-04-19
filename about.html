@@ -268,7 +268,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!-- bootstrap-modal-pop-up -->
 <!--
-	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+	<div class="modal appointment1 video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -293,40 +293,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //bootstrap-modal-pop-up --> 
 
 <!-- bootstrap-modal-pop-up for appointment -->
-	<div class="modal appointment1 video-modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
+	<div class="modal appointment1 video-modal fade" style="pointer-events: none;" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div style="pointer-events: none;    display: none;" class="modal-dialog" role="document">
+			<div class="modal-content" >
 				<div class="modal-header">
-				Request an appointment
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				Disclaimer
 				</div>
 					<div class="modal-body">
-					<form action="#" method="post">
-						<ul>
-							<li><input type="text" name="Full Name" placeholder="Full Name" required=""></li>
-						</ul>
-						<ul>
-							<li><input type="email" class="email" name="Email" placeholder="Email" required=""></li>
-							<li><input type="text" name="Number" placeholder="Mobile Number" required=""></li>
-							<li><input class="date" id="datepicker1" type="text" name="Number" placeholder="Date" required=""></li>
-						</ul>
-						<select id="category" name="category" required="">
-							<option value="">Legal Cases</option>
-							<option value="category1">Divorce</option>
-							<option value="category2">Crime Case</option>
-							<option value="category3">Suicide Case</option>
-							<option value="category3">Others</option>
-						</select>
-						<textarea name="Message" placeholder="Address..." required=""></textarea>
-						<div class="clearfix"></div>
-						<ul class="appointmentbtn">
-							<li><input type="submit" name="Send" value="Get Appointment"></li>
-							<li><input type="reset" value="Cancel"></li>
-						</ul>
-						<div class="clearfix agile"></div>
-					</form>
-
+                        <div style="overflow-y: scroll; max-height: 450px;">
+                            <p><i class="glyphicon glyphicon-share-alt" aria-hidden="true">  </i> As per the rules of the Bar Council of India, we are not permitted to solicit work and advertise. By clicking on the button "Yes , Im Agree" below, the user acknowledges the following.  </p>  
+                            <p><i class="glyphicon glyphicon-share-alt" aria-hidden="true">  </i> This Web site (www.bsassociates.com) is a resource for informational purposes only and is intended, but not promised or guaranteed, to be correct, complete, and up-to-date. B.S & Associates ("BS&amp;A") does not warrant that the information contained on this Web site is accurate or complete, and hereby disclaims any and all liability to any person for any loss or damage caused by errors or omissions, whether such errors or omissions result from negligence, accident or any other cause.</p>
+                            <p><i class="glyphicon glyphicon-share-alt" aria-hidden="true">  </i> BS&amp;A further assumes no liability for the interpretation and/or use of the information contained on this website, nor does it offer a warranty of any kind, either expressed or implied. The owner of this Web site does not intend links from this site to other Internet Websites to be referrals to, endorsements of, or affiliations with the linked entities. BS&amp;A is not responsible for, and makes no representations or warranties about, the contents of Web sites to which links may be provided from this Web site.</p>
+                            <p><i class="glyphicon glyphicon-share-alt" aria-hidden="true">  </i> This Web site is not intended to be a source of advertising or solicitation and the contents of the web site should not be construed as legal advice. The reader should not consider this information to be an invitation for an lawyer-client relationship and should not rely on information provided herein and should always seek the advice of competent counsel licensed to practice in the reader's country/state. Transmission, receipt or use of this Web site does not constitute or create an lawyer-client relationship. No recipients of content from this Website should act, or refrain from acting, based upon any or all of the contents of this site.</p>
+                            <p><i class="glyphicon glyphicon-share-alt" aria-hidden="true">  </i> Furthermore, the owner of this Web site does not wish to represent anyone desiring representation based solely upon viewing this Web site or in a country/state where this Website fails to comply with all laws and ethical rules of that state. Finally, the reader is warned that the use of Internet e-mail for confidential or sensitive information is susceptible to risks of lack of confidentiality associated with sending email over the Internet.</p>
+                            <p></p>
+                             <button type="button" style="margin-left: 60%;" class=" btn btn-primary" data-dismiss="modal" aria-label="Close">Yes, Im Agree</button>
+                        </div>
+					
+                       
 					</div>
+                
 			</div>
 		</div>
 	</div>
@@ -427,8 +413,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
-</script> 
-<!-- //scrolling script -->
+
 
 </body>
 </html>
