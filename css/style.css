@@ -763,7 +763,6 @@ p.sp-para {
     width: 50%;
 }
 .img_text_w3ls p {
-	text-align: justify;
 	color: #fff;
     font-size: 1em;
 	margin: 0.5em;
@@ -2944,6 +2943,7 @@ form li {
 	}
 	.typography, .codes, .legal, .testimonials, .services, .lawyers, .contact, .whom {
 		padding: 2em 0;
+        
 	}
 	.link-effect-8 a {
 		padding: .7em;
